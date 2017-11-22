@@ -8,3 +8,5 @@ function forLoop(array) {
 }
 
 console.log(forLoop(loopyArray))
+
+
