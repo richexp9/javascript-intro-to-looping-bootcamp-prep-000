@@ -18,3 +18,12 @@ function whileLoop(number) {
 }
 
 //whileLoop(100)  
+
+function doWhileLoop(array) {
+  do {
+    
+  } while (function maybeTrue() {
+    return Math.random() >= 0.5
+  });
+}
+
