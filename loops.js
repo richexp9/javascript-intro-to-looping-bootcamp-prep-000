@@ -7,6 +7,11 @@ function forLoop(array) {
   return array
 }
 
-console.log(forLoop(loopyArray))
+//console.log(forLoop(loopyArray))
 
 
+function whileLoop(number) {
+  while (number > 0) {
+    console.log(--number)
+  }
+}
