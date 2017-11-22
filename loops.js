@@ -6,19 +6,19 @@ var loopyArray = [1,2,3,4,]
 //   }
 //   return array
 // }
-// 
+//
 // //console.log(forLoop(loopyArray))
-// 
-// 
+//
+//
 // function whileLoop(number) {
 //   while (number > 0) {
 //     console.log(--number)
 //   }
 //   return 'done'
 // }
-// 
+//
 // //whileLoop(100)
-// 
+//
 
 
 function maybeTrue() {
@@ -31,3 +31,5 @@ function doWhileLoop(array) {
     console.log(array)
   } while (array.length > 0 && maybeTrue());
 }
+
+doWhileLoop(loopyArray)
