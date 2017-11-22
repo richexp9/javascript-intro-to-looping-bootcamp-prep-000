@@ -17,7 +17,7 @@ function whileLoop(number) {
   return 'done'
 }
 
-//whileLoop(100)  
+//whileLoop(100)
 
 
 
@@ -26,8 +26,8 @@ function maybeTrue() {
 }
 
 function doWhileLoop(array) {
-  do { 
-    
+  do {
+    array.pop()
+
   } while (true);
 }
-
