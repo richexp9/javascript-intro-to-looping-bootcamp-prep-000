@@ -1,4 +1,4 @@
-var loopyArray = []
+var loopyArray = [1,2,3,4,]
 
 // function forLoop(array) {
 //   for (var i = 0; i < 25; i++) {
@@ -28,5 +28,6 @@ function maybeTrue() {
 function doWhileLoop(array) {
   do {
     array.pop()
+    console.log(array)
   } while (array.length > 0 && maybeTrue());
 }
