@@ -17,13 +17,12 @@ function whileLoop(number) {
   return 'done'
 }
 
-//whileLoop(100)  
+//whileLoop(100)
 
 function doWhileLoop(array) {
   do { function maybeTrue() {
     return Math.random() >= 0.5
   }
-    
-  } while (true);
-}
 
+  } while (array.length > 0 && maybeTrue());
+}
