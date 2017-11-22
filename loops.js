@@ -3,3 +3,5 @@ function forLoop(array) {
     array[i]= "I am ${i} strange loops."
   }
 }
+
+console.log(array)
