@@ -3,6 +3,7 @@ function forLoop(array) {
   for (var i = 0; i < 25; i++) {
     loopyArray[i]= "I am ${i} strange loops."
   }
+  return loopyArray
 }
 
 console.log(loopyArray)
